@@ -38,7 +38,7 @@ body{
 }
 .dropdown-menu {
   list-style: none;
-  /* display: none; */
+  display: none;
   position: absolute;
   width: 100%;
   padding: 0;
