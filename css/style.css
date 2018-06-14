@@ -14,7 +14,8 @@ body{
   display: table-cell;
   background: #9EDCF9;
   border-right: 1px solid #fff;
-  padding: 15px 10px;
+  padding: 15px 7px;
+  text-align: center;
 }
 .navbar-list li:hover {
   background: #412c14;
@@ -23,7 +24,7 @@ body{
   color: #fff;
 }
 .navbar-list .nav-item a {
-  padding: 15px 10px;
+  padding: 15px 7px;
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
@@ -55,4 +56,14 @@ body{
   text-transform: uppercase;
   text-decoration: none;
   color: #333;
+}
+
+@media (max-width: 1024px) {
+  .navbar-list .nav-item a {
+    font-size: 10px;
+    padding: 15px 4px;
+  }
+  .navbar-list > li {
+    padding: 15px 4px;
+  }
 }
