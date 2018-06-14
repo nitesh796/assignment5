@@ -58,6 +58,16 @@ body{
   color: #333;
 }
 
+@media (max-width: 1440px) {
+  .navbar-list .nav-item a {
+    font-size: 12px;
+    padding: 15px 4px;
+  }
+  .navbar-list > li {
+    padding: 15px 4px;
+  }
+}
+
 @media (max-width: 1024px) {
   .navbar-list .nav-item a {
     font-size: 10px;
@@ -65,5 +75,31 @@ body{
   }
   .navbar-list > li {
     padding: 15px 4px;
+  }
+}
+
+@media (max-width: 850px) {
+  .navbar-list .nav-item a {
+    font-size: 9px;
+    padding: 15px 4px;
+  }
+  .navbar-list > li {
+    padding: 15px 4px;
+  }
+  .dropdown-menu {
+    top: 67px;
+  }
+}
+
+@media (max-width: 664px) {
+  .navbar-list .nav-item a {
+    font-size: 8px;
+    padding: 15px 4px;
+  }
+  .navbar-list > li {
+    padding: 15px 4px;
+  }
+  .dropdown-menu {
+    top: 85px;
   }
 }
